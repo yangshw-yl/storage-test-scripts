@@ -1,0 +1,17 @@
+[global]
+ioengine=spdk_bdev
+spdk_conf=./my_bdev.conf
+thread=1
+cpumask=0x02
+group_reporting=1
+direct=1
+verify=0
+time_based=1
+norandommap=1
+runtime=60
+iodepth=8
+rw=randread
+bs=512b
+
+[filename1]
+filename=Malloc0n1
