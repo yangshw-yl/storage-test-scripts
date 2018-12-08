@@ -1,0 +1,2 @@
+VMA_TCP_NODELAY=1 VMA_TX_BUFS=4000000 LD_PRELOAD=/home/liang/spdk-tcp-1208/vma-install/lib/libvma.so ./nvmf_tgt -c ./nvmf-1core1ssd.conf -m 0x2
+VMA_TCP_NODELAY=1 VMA_TX_BUFS=4000000 LD_PRELOAD=/home/liang/spdk-tcp-1208/vma-install/lib/libvma.so ./nvmf_tgt -c ./nvmf-8core8ssd.conf
